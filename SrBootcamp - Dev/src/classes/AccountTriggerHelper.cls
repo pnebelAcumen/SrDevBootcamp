@@ -1,7 +1,7 @@
 public with sharing class AccountTriggerHelper {
 
 
-	public static void myMethod(){
-		system.debug('another post');  
+	public static boolean myMethod(Account acct){
+		return (acct.dummyText__c.contains('|'));
 	}
 }
