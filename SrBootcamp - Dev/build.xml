@@ -31,7 +31,7 @@
 	       deployRoot="${sf.deployRoot}"
 	       pollWaitMillis="10000" 
 	       trace="${sf.trace}" 
-	       maxPoll="500"  
+	       maxPoll="500"   
 	       logType="Debugonly"
     	   runAllTests="${sf.runAllTests}"
 	       checkOnly="false"/>
